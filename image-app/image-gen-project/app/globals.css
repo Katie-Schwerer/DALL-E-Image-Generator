@@ -1,0 +1,52 @@
+/*@import "tailwindcss";*/
+
+body {
+  background: linear-gradient(45deg, rgb(255, 81, 0), rgb(255, 153, 0), rgb(255, 196, 0), rgb(255, 247, 0));
+  font-family: "Poppins", sans-serif;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(50, 15, 82);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  opacity: .6;
+  text-shadow: 1px 1px white;
+}
+
+.app-input {
+  background-color: white;
+  width: 35%;
+  height: 10rem;
+  opacity: .5;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  resize: none;
+  box-shadow: 2px 2px 5px lightgrey;
+}
+
+button {
+  padding: 1rem 2rem;
+  background-color: rgb(53, 87, 99);
+  color: white;
+  border: 2px solid rgb(33, 182, 232);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(17, 113, 17);
+  color: aliceblue;
+  border: 1px solid rgb(134, 139, 138);
+}
